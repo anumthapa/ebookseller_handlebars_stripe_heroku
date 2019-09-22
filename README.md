@@ -13,6 +13,8 @@ There are two keys
      
         4242 4242 4242 4242
      
-     Actually this is the default card nunmber which by passes the security with out any problem.
-     There is also phone number which helps to make the Stripe more power ful when it goes online.
+     Actually this is the default card nunmber which bypasses the security with out any problem.
+     There is also phone number which helps to make the Stripe more power full when it goes online.
+     
+  There is a line of code in # Stripe as Backend service ## which gives live to use all the feature.
  
