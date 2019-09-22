@@ -1,12 +1,12 @@
-# ebookseller_handlebars_stripe_heroku
+# __Express-handlebars
 You will need Keys to run this application . 
 There are two keys 
   1. Published Key 
   2. Secret Key
   
-  There is an Image as Screen Shots It is powered By Stripe. It is actually an Offical Credit Card Validation Checker.
+    There is an Image as Screen Shots It is powered By Stripe. It is actually an Offical Credit Card Validation Checker.
   Which helps to check the Bank Credit Card which is either Valid or Not. It has a form which connect to API of the server 
-  which checks the Validation of the card. 
+    which checks the Validation of the card. 
   
   # Stripe  
      You can use a default Visa Card Number as
