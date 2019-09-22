@@ -8,12 +8,12 @@
                 <script 
                 src ="https://checkout.stripe.com/checkout.js"
                 class ="stripe-button"
-                data-key="pk_test_gaxJk6KSkSwydu4TBys9P9CN00NMPzp7Pt"
+                data-key="{{stripePublishableKey}}"
                 data-amount ="2500"
                 data-name="Web Development E-Book"
                 data-description ="EBook Written by Roy"
                 data-image="/img/marketplace.png"
-                data-locale =""></script>
+                data-locale ="auto"></script>
                 <script>
                 document.getElementsByClassName('stripe-button-el')[0]
                 .style.display = 'none';
