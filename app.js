@@ -1,8 +1,8 @@
-const express = require('express');
-const keys = require('./config/keys');
-const stripe = require('stripe')(keys.stripeSecretKey);
-const bodyParser = require('body-parser');
-const exphbs = require('express-handlebars');
+import express, { static } from 'express';
+import { stripeSecretKey } from './config/keys';
+const stripe = require('stripe')(stripeSecretKey);
+import { json, urlencoded } from 'body-parser';
+import exphbs from 'express-handlebars';
 
 const app = express();
 
@@ -11,11 +11,11 @@ app.engine('handlebars', exphbs({defaultlayout: 'main'}));
 app.set('view engine' , 'handlebars');
 
 // Body Parser Middleware
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:false}));
+app.use(json());
+app.use(urlencoded({extended:false}));
 
 // Set Static Folder
-app.use(express.static(`${__dirname}/public`));
+app.use(static(`${__dirname}/public`));
 
 //Index Route 
 app.get('/', (req,res)=>{
