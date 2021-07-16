@@ -15,6 +15,7 @@ There are two keys
      
      Actually this is the default card nunmber which bypasses the security with out any problem.
      There is also phone number which helps to make the Stripe more power full when it goes online.
-     
+     Use the current mm/yy to see the result.   
   There is a line of code in # Stripe as Backend service ## which gives live to use all the feature.
+  
  
